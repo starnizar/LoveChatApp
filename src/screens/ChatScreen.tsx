@@ -1,8 +1,13 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
-import {Button, Card, Text} from 'react-native-paper';
+import { StyleSheet, View } from 'react-native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
-const ChatScreen = ({navigation}) => {
+interface ChatScreenProps {
+  navigation: NativeStackNavigationProp<any>;
+}
+
+const ChatScreen = (props: ChatScreenProps) => {
+  const { navigation } = props;
   return <View style={styles.container} />;
 };
 

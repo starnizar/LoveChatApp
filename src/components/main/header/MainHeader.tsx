@@ -11,6 +11,7 @@ const MainHeader = (props: NativeStackHeaderProps) => {
         <Appbar.BackAction onPress={() => navigation.goBack()} />
       )}
       <Appbar.Content title={route.name} />
+      <Appbar.Action icon="mail" />
     </Appbar.Header>
   );
 };

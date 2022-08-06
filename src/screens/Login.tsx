@@ -3,7 +3,7 @@ import { StyleSheet, View } from 'react-native';
 import { Button, Card, Text } from 'react-native-paper';
 import { LoginScreenProps } from '../types/types';
 
-const LoginScreen = (props: LoginScreenProps) => {
+const Login = (props: LoginScreenProps) => {
   const { navigation } = props;
 
   return (
@@ -17,7 +17,7 @@ const LoginScreen = (props: LoginScreenProps) => {
   );
 };
 
-export default LoginScreen;
+export default Login;
 
 const styles = StyleSheet.create({
   container: {

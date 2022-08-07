@@ -9,9 +9,11 @@ const Login = (props: LoginScreenProps) => {
   return (
     <View style={styles.container}>
       <Card style={styles.card}>
-        <Button disabled onPress={() => navigation.navigate('Chat')}>
-          <Text>Navigate to chat</Text>
-        </Button>
+        <Card.Content>
+          <Button disabled onPress={() => navigation.navigate('Chat')}>
+            <Text>Navigate to chat</Text>
+          </Button>
+        </Card.Content>
       </Card>
     </View>
   );
@@ -23,7 +25,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'space-evenly',
+    justifyContent: 'center',
   },
   card: {
     width: '100%',

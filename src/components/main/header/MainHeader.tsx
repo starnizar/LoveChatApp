@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.light,
   },
   headerContent: {
+    marginLeft: 15,
     color: colors.dark,
   },
 });

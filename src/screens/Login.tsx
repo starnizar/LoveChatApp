@@ -26,6 +26,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
   },
   card: {
-    width: '80%',
+    width: '100%',
   },
 });
